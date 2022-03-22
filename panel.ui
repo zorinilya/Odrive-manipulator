@@ -9,13 +9,13 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>718</width>
+    <width>835</width>
     <height>547</height>
    </rect>
   </property>
   <property name="maximumSize">
    <size>
-    <width>718</width>
+    <width>1000</width>
     <height>547</height>
    </size>
   </property>
@@ -723,6 +723,19 @@
             <number>0</number>
            </property>
            <item>
+            <widget class="QPushButton" name="buttonHome">
+             <property name="minimumSize">
+              <size>
+               <width>110</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Home</string>
+             </property>
+            </widget>
+           </item>
+           <item>
             <widget class="QLabel" name="labelNewPos">
              <property name="text">
               <string>Position</string>
@@ -754,17 +767,37 @@
           </layout>
          </item>
          <item>
-          <widget class="QPushButton" name="buttonGoTo">
-           <property name="minimumSize">
-            <size>
-             <width>0</width>
-             <height>30</height>
-            </size>
+          <layout class="QHBoxLayout" name="horizontalLayout_11">
+           <property name="bottomMargin">
+            <number>0</number>
            </property>
-           <property name="text">
-            <string>Go to position</string>
-           </property>
-          </widget>
+           <item>
+            <widget class="QPushButton" name="buttonGoTo">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Go to position</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="buttonStop_Pos">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Stop</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
          </item>
         </layout>
        </widget>
